@@ -1,0 +1,38 @@
+:root {
+  font-family: serif;
+  background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-grid {
+  /* max-width: 500px; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 2fr;
+  gap: 20px;
+  padding: 40px;
+  align-items: center;
+}
+
+img {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+.number {
+  font-size: 120px;
+}
+
+.headline {
+  font-size: 50px;
+}
+
+.read {
+  font-size: 20px;
+  margin-top: 50px;
+}
