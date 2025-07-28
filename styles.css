@@ -13,26 +13,29 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: 40% 2fr;
-  gap: 20px;
+  gap: 40px;
   padding: 40px;
   align-items: center;
 }
 
 img {
-  width: 400px;
+  width: auto;
   height: auto;
-  display: block;
+  /* display: block; */
 }
 
 .number {
   font-size: 120px;
+  color: gray;
 }
 
 .headline {
-  font-size: 50px;
+  font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .read {
   font-size: 20px;
   margin-top: 50px;
+  color: gray;
 }
