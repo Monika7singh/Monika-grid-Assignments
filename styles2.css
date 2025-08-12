@@ -1,0 +1,44 @@
+:root {
+  font-family: serif;
+  background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 10% 25% 65%;
+  gap: 10px;
+  padding: 10px;
+}
+
+h2 {
+  grid-column: span 2;
+  background-color: darkslategray;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  grid-column: span 2;
+  font-size: 100px;
+  padding: 20px;
+}
+
+p {
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+img {
+  width: 870px;
+  height: auto;
+}

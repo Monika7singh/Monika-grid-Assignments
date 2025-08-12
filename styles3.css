@@ -1,0 +1,40 @@
+:root {
+  font-family: serif;
+  background-color: aliceblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 40% 50% 10%;
+  grid-template-rows: 20% 60% 20%;
+  gap: 10px;
+  padding: 10px;
+}
+
+img {
+  grid-row: span 3;
+  width: 500px;
+}
+
+h2 {
+display: flex;
+align-items: center;
+grid-row: span 2;
+}
+
+h1 {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+
+}
+
+p {
+  grid-row: 3 / 4;
+  grid-column: 2 / 3;
+  
+}
